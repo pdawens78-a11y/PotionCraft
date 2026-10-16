@@ -37,4 +37,4 @@ jobs:
         with:
           context: ${{ matrix.service.context }}
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/potioncraft-${{ matrix.service.name }} 
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/potioncraft:${{ matrix.service.name }} 
